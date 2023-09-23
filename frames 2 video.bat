@@ -1,6 +1,10 @@
 @echo off
 setlocal enabledelayedexpansion
 
+:: Created by Andro.Meta mostly just to have something that works that I can go to from anywhere. 
+:: This is a very simple .bat file and free for anyone to use and to incorporate into their work. 
+:: Must have ffmpeg installed to PATH
+
 :: Ask the user to drag and drop the folder
 echo Please drag and drop the folder onto this window and press Enter.
 set /p folderPath="Folder: "
